@@ -1,0 +1,143 @@
+@import "./utils/root";
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+$txt-font: Raleway;
+
+@mixin first-fields {
+  position: absolute;
+  top: 12px;
+  left: 59vh;
+}
+
+@mixin second-fields {
+  position: absolute;
+  top: 75px;
+  left: 59vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.RegBlock {
+  font-family: $txt-font;
+  width: 475px;
+  background-color: var(--register-bg);
+  color: var(--txt-color);
+  border: 2px solid var(--txt-color);
+  border-radius: 10px;
+
+  h1 {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .underline {
+    margin-left: 25.5vh;
+    width: 100px;
+    height: 2px;
+    background-color: var(--bg-color);
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .InfoField {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    margin-bottom: 75px;
+
+    input {
+      width: 100%;
+      height: 100%;
+      font-size: 16px;
+      color: var(--txt-color);
+      padding: 20px 46px 20px 20px;
+      margin-bottom: 10px;
+      background: transparent;
+      border: none;
+      outline: none;
+      border: 2px solid var(--txt-color);
+      border-radius: 20px;
+    }
+
+    input::placeholder {
+      color: var(--txt-color);
+    }
+
+    .name {
+      @include first-fields;
+    }
+
+    .surname {
+      @include second-fields;
+    }
+
+    .envelope {
+      @include first-fields;
+    }
+
+    .lock {
+      @include second-fields;
+    }
+  }
+
+  .LastInfField {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: -15px 0 15px;
+
+    label {
+      input {
+        accent-color: var(--txt-color);
+        margin-left: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .submit-button {
+    button {
+      width: 100%;
+      height: 40px;
+      background-color: var(--txt-color);
+      border: none;
+      outline: none;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      color: var(--secondary-color);
+      font-weight: 600;
+    }
+  }
+
+  .Login {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: var(--txt-color);
+
+    a {
+      color: var(--txt-color);
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,271 @@
+.Show {
+  margin-bottom: 750px;
+
+  .categories {
+    position: absolute;
+    width: 643px;
+    height: 42px;
+    top: 1000px;
+    left: 150px;
+    font-family: $txt-font;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42.26px;
+  }
+
+  .ShowCase {
+    .Banner1 {
+      @include banner;
+      left: 150px;
+
+      img {
+        transition: 1s;
+        display: block;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+    .Banner2 {
+      @include banner;
+      left: 438.75px;
+
+      img {
+        transition: 1s;
+        display: block;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+    .Banner3 {
+      @include banner;
+      left: 727.5px;
+
+      img {
+        transition: 1s;
+        display: block;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+    .Banner4 {
+      @include banner;
+      left: 1016.25px;
+
+      img {
+        transition: 1s;
+        display: block;
+      }
+
+      img:hover {
+        transform: scale(1.2);
+      }
+    }
+
+    .jacket {
+      @include bannertxt;
+    }
+
+    .coat {
+      @include bannertxt;
+    }
+
+    .furcoat {
+      @include bannertxt;
+    }
+
+    .parks {
+      @include bannertxt;
+    }
+
+    .Next {
+      position: absolute;
+      left: 250px;
+      top: 225px;
+      width: 19px;
+      height: 19px;
+      background-color: var(--button-bg);
+      transition: transform 0.9s ease;
+    }
+
+    .Next:hover {
+      transform: scale(1.3);
+    }
+  }
+}
+
+.LastInf {
+  font-family: $txt-font;
+
+  .Title {
+    position: absolute;
+    width: 600px;
+    height: 42px;
+    top: 1642;
+    left: 420px;
+
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 42.26px;
+    text-align: center;
+  }
+
+  input {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    top: 1734px;
+    left: 420px;
+    font-size: 16px;
+    color: #25252580;
+    border: solid 0.5px;
+    text-align: center;
+  }
+
+  .Agree {
+    position: absolute;
+    width: 600px;
+    height: 38px;
+    top: 1874px;
+    left: 420px;
+
+    font-weight: 200;
+    size: 16px;
+    line-height: 18.74px;
+    text-align: center;
+  }
+
+  .Subscribe {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    left: 420px;
+    top: 1804px;
+    gap: 10px;
+    color: var(--txt-color);
+    background-color: var(--button-bg);
+
+    p {
+      position: absolute;
+      width: 122px;
+      height: 17px;
+      top: 16px;
+      left: 250px;
+
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 18.78px;
+      transition: color 2s ease, transform 3s;
+    }
+
+    p:hover {
+      color: var(--secondary-color);
+      transform: scale(1.3);
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 1628px) {
+  body {
+    max-width: 375px;
+    margin: 0;
+  }
+
+  .Show {
+    .categories {
+      position: absolute;
+      width: 335px;
+      height: 28px;
+      top: 59vh;
+      left: 20px;
+      gap: 0px;
+      opacity: 0px;
+
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 28.18px;
+      text-align: left;
+    }
+
+    .ShowCase {
+      .Banner1 {
+        // position: absolute;
+        width: 273.75px;
+        height: 450px;
+        top: 65vh;
+        left: 50px;
+      }
+
+      .Next {
+        width: 30px;
+        height: 30px;
+        top: 885px;
+        left: 315px;
+        gap: 0px;
+        opacity: 0px;
+      }
+
+      .Banner2,
+      .Banner3,
+      .Banner4 {
+        display: none;
+      }
+    }
+  }
+  .LastInf {
+    .Title {
+      position: absolute;
+      width: 335px;
+      height: 28px;
+      top: 1595px;
+      left: 20px;
+
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 28.18px;
+      text-align: center;
+    }
+
+    .E-mail {
+      position: absolute;
+      width: 335px;
+      height: 40px;
+      top: 101vh;
+      left: 20px;
+
+      input {
+        position: absolute;
+        width: 335px;
+        height: 40px;
+        top: 0px;
+        left: 0px;
+      }
+    }
+
+    .Subscribe {
+      width: 335px;
+      height: 40px;
+      top: 104vh;
+      left: 20px;
+      gap: 0px;
+      opacity: 0px;
+
+      P {
+        top: 1vh;
+        left: 6.5vh;
+      }
+    }
+
+    .Agree {
+      width: 335px;
+      height: 48px;
+      top: 108vh;
+      left: 20px;
+    }
+  }
+}

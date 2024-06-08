@@ -1,0 +1,195 @@
+// Шрифты
+$title-font: Josefin Sans;
+$txt-font: Raleway;
+
+// Миксины
+
+@mixin banner {
+  position: absolute;
+  width: 273.75px;
+  height: 450px;
+  top: 1092px;
+}
+
+@mixin bannertxt {
+  position: absolute;
+  height: 30px;
+  top: 420px;
+  font-family: $txt-font;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 23.48px;
+  text-align: center;
+  width: 274px;
+  left: 0px;
+  color: var(--txt-color);
+  background-color: var(--button-bg);
+  backdrop-filter: blur(5px);
+}
+
+@mixin conatct-title {
+  position: absolute;
+  width: 250px;
+  height: 23px;
+  top: -35px;
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 23.48px;
+  text-align: left;
+  color: #252525;
+
+  img {
+    transition: transform 0.3s ease;
+  }
+
+  img:hover {
+    transform: translateY(10px);
+  }
+}
+
+@mixin contact-list {
+  width: 250px;
+  height: 19px;
+  margin-bottom: 15px;
+
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 18.78px;
+  text-align: left;
+}
+
+@mixin main-panel {
+  position: absolute;
+  top: 34px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.13px;
+  text-align: left;
+}
+
+@mixin languages {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.13px;
+  text-align: left;
+}
+
+@mixin lang-arrows {
+  position: absolute;
+  width: 6.11px;
+  height: 10px;
+  top: 35px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+@mixin icons {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 32px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.OurContact {
+  position: absolute;
+  width: 1140px;
+  height: 120px;
+  top: 2012px;
+  left: 150px;
+
+  .Contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $txt-font;
+
+    .title1 {
+      @include conatct-title;
+    }
+
+    .title2 {
+      @include conatct-title;
+    }
+
+    .title3 {
+      @include conatct-title;
+    }
+
+    .title4 {
+      @include conatct-title;
+    }
+
+    li {
+      @include contact-list;
+      list-style: none;
+    }
+  }
+}
+
+.Rigths {
+  position: absolute;
+  width: 173px;
+  height: 14px;
+  top: 155px;
+  left: 490px;
+  gap: 0px;
+
+  font-family: $txt-font;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.09px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 375px) and (max-height: 1628px) {
+  body {
+    max-width: 375px;
+    margin: 0;
+  }
+  .OurContact {
+    .Contact {
+      .title1 {
+        width: 335px;
+        height: 26px;
+        top: -4vh;
+        left: -2vh;
+      }
+
+      .title2 {
+        width: 335px;
+        height: 26px;
+        top: -2vh;
+        left: -2vh;
+      }
+
+      .title3 {
+        width: 335px;
+        height: 26px;
+        top: 0vh;
+        left: -2vh;
+      }
+
+      .title4 {
+        width: 335px;
+        height: 26px;
+        top: 2vh;
+        left: -2vh;
+      }
+
+      li {
+        display: none;
+      }
+    }
+
+    .Rigths {
+      width: 144px;
+      height: 12px;
+      top: 115px;
+      left: -43px;
+    }
+  }
+}
