@@ -731,6 +731,10 @@
   text-align: left;
   list-style: none;
 }
+.OurContact .Contact a {
+  text-decoration: none;
+  color: #252525;
+}
 
 .Rigths {
   position: absolute;

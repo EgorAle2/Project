@@ -127,6 +127,11 @@ $txt-font: Raleway;
       @include contact-list;
       list-style: none;
     }
+
+    a {
+      text-decoration: none;
+      color: #252525;
+    }
   }
 }
 
