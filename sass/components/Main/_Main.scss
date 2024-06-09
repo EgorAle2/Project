@@ -1,4 +1,4 @@
-.Show {
+Show {
   margin-bottom: 750px;
 
   .categories {
@@ -142,13 +142,18 @@
 
   .Subscribe {
     position: absolute;
-    width: 600px;
+    width: 602.5px;
     height: 50px;
     left: 420px;
     top: 1804px;
     gap: 10px;
     color: var(--txt-color);
     background-color: var(--button-bg);
+
+    button {
+      height: 100%;
+      width: 100%;
+    }
 
     p {
       position: absolute;
