@@ -28,15 +28,15 @@ $txt-font: Raleway;
 }
 
 @mixin conatct-title {
-  position: absolute;
+  // position: absolute;
   width: 250px;
   height: 23px;
-  top: -35px;
+  // top: -35px;
 
   font-size: 20px;
   font-weight: 300;
-  line-height: 23.48px;
-  text-align: left;
+  margin-left: 5vh;
+  text-align: center;
   color: #252525;
 
   img {
@@ -51,11 +51,11 @@ $txt-font: Raleway;
 @mixin contact-list {
   width: 250px;
   height: 19px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 
   font-size: 16px;
   font-weight: 200;
-  line-height: 18.78px;
+  margin-left: 5vh;
   text-align: left;
 }
 
@@ -98,13 +98,13 @@ $txt-font: Raleway;
   position: absolute;
   width: 1140px;
   height: 120px;
-  top: 2012px;
-  left: 150px;
+  top: 135vh;
 
   .Contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-left: 37.5vh;
     font-family: $txt-font;
 
     .title1 {
@@ -140,13 +140,11 @@ $txt-font: Raleway;
   width: 173px;
   height: 14px;
   top: 155px;
-  left: 490px;
-  gap: 0px;
+  left: 74vh;
 
   font-family: $txt-font;
   font-size: 12px;
   font-weight: 300;
-  line-height: 14.09px;
   text-align: center;
 }
 

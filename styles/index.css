@@ -15,6 +15,10 @@
   padding: 0;
 }
 
+header {
+  margin-left: 30vh;
+}
+
 .HeaderMenu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -45,7 +49,7 @@
   text-align: left;
   width: 44px;
   height: 21px;
-  left: 288px;
+  left: 42vh;
 }
 .HeaderMenu .MainButtons .cataLog {
   position: absolute;
@@ -57,7 +61,7 @@
   text-align: left;
   width: 80px;
   height: 21px;
-  left: 357px;
+  left: 50vh;
 }
 .HeaderMenu .MainButtons .aboutUs {
   position: absolute;
@@ -69,7 +73,7 @@
   text-align: left;
   width: 56px;
   height: 21px;
-  left: 465px;
+  left: 58vh;
 }
 .HeaderMenu .MainButtons a {
   text-decoration: none;
@@ -80,14 +84,14 @@
   width: 34px;
   height: 24px;
   top: 33px;
-  left: 150px;
+  left: 34vh;
 }
 .HeaderMenu .CompanyName p {
   position: absolute;
   width: 158.09px;
   height: 40px;
   top: 24px;
-  left: 641px;
+  left: 76.5vh;
   color: var(--txt-color);
   font-family: Josefin Sans;
   font-size: xx-large;
@@ -101,9 +105,7 @@
   width: 26px;
   height: 21px;
   top: 34px;
-  left: 893px;
-  gap: 0px;
-  opacity: 0px;
+  left: 101vh;
   font-size: 18px;
   font-weight: 300;
   line-height: 21.13px;
@@ -116,7 +118,7 @@
   top: 35px;
   gap: 0px;
   opacity: 0px;
-  left: 925px;
+  left: 103vh;
 }
 .HeaderMenu .Lang .arrow2 {
   position: absolute;
@@ -125,16 +127,14 @@
   top: 35px;
   gap: 0px;
   opacity: 0px;
-  left: 1005px;
+  left: 110vh;
 }
 .HeaderMenu .Lang .uah {
   position: absolute;
   width: 39px;
   height: 21px;
   top: 34px;
-  left: 962.02px;
-  gap: 0px;
-  opacity: 0px;
+  left: 107vh;
   font-size: 18px;
   font-weight: 300;
   line-height: 21.13px;
@@ -157,7 +157,7 @@
   top: 32px;
   gap: 0px;
   opacity: 0px;
-  left: 1100px;
+  left: 117vh;
 }
 .HeaderMenu .IconPerson {
   position: absolute;
@@ -166,7 +166,7 @@
   top: 32px;
   gap: 0px;
   opacity: 0px;
-  left: 1155px;
+  left: 120vh;
 }
 .HeaderMenu .IconLike {
   position: absolute;
@@ -175,7 +175,7 @@
   top: 32px;
   gap: 0px;
   opacity: 0px;
-  left: 1210px;
+  left: 123vh;
 }
 .HeaderMenu .IconBasket {
   position: absolute;
@@ -184,12 +184,12 @@
   top: 32px;
   gap: 0px;
   opacity: 0px;
-  left: 1265px;
+  left: 126vh;
 }
 .HeaderMenu .Center {
   position: absolute;
   top: 350px;
-  left: 540px;
+  left: 67.75vh;
   color: var(--txt-color);
   font-family: Raleway;
 }
@@ -312,7 +312,7 @@
   width: 643px;
   height: 42px;
   top: 1000px;
-  left: 150px;
+  left: 33.5vh;
   font-family: Raleway;
   font-weight: 300;
   font-size: 36px;
@@ -325,7 +325,7 @@
   top: 1092px;
   display: inline-block;
   overflow: hidden;
-  left: 150px;
+  left: 40vh;
 }
 .Show .ShowCase .Banner1 img {
   -webkit-transition: 1s;
@@ -343,7 +343,7 @@
   top: 1092px;
   display: inline-block;
   overflow: hidden;
-  left: 438.75px;
+  left: 60vh;
 }
 .Show .ShowCase .Banner2 img {
   -webkit-transition: 1s;
@@ -361,7 +361,7 @@
   top: 1092px;
   display: inline-block;
   overflow: hidden;
-  left: 727.5px;
+  left: 80vh;
 }
 .Show .ShowCase .Banner3 img {
   -webkit-transition: 1s;
@@ -379,7 +379,7 @@
   top: 1092px;
   display: inline-block;
   overflow: hidden;
-  left: 1016.25px;
+  left: 100vh;
 }
 .Show .ShowCase .Banner4 img {
   -webkit-transition: 1s;
@@ -475,44 +475,44 @@
   font-family: Raleway;
 }
 .LastInf .Title {
+  top: 113vh;
+  left: 58vh;
   position: absolute;
   width: 600px;
   height: 42px;
-  top: 1642;
-  left: 420px;
   font-weight: 300;
   font-size: 36px;
   line-height: 42.26px;
   text-align: center;
 }
 .LastInf input {
+  top: 118.9vh;
+  left: 58vh;
   position: absolute;
   width: 600px;
   height: 50px;
-  top: 1734px;
-  left: 420px;
   font-size: 16px;
   color: rgba(37, 37, 37, 0.5019607843);
   border: solid 0.5px;
   text-align: center;
 }
 .LastInf .Agree {
+  top: 128.5vh;
+  left: 58vh;
   position: absolute;
   width: 600px;
   height: 38px;
-  top: 1874px;
-  left: 420px;
   font-weight: 200;
   size: 16px;
   line-height: 18.74px;
   text-align: center;
 }
 .LastInf .Subscribe {
+  top: 123.5vh;
+  left: 58vh;
   position: absolute;
   width: 600px;
   height: 50px;
-  left: 420px;
-  top: 1804px;
 }
 .LastInf .Subscribe button {
   width: 100%;
@@ -612,8 +612,7 @@
   position: absolute;
   width: 1140px;
   height: 120px;
-  top: 2012px;
-  left: 150px;
+  top: 135vh;
 }
 .OurContact .Contact {
   display: -webkit-box;
@@ -625,17 +624,16 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 37.5vh;
   font-family: Raleway;
 }
 .OurContact .Contact .title1 {
-  position: absolute;
   width: 250px;
   height: 23px;
-  top: -35px;
   font-size: 20px;
   font-weight: 300;
-  line-height: 23.48px;
-  text-align: left;
+  margin-left: 5vh;
+  text-align: center;
   color: #252525;
 }
 .OurContact .Contact .title1 img {
@@ -649,14 +647,12 @@
           transform: translateY(10px);
 }
 .OurContact .Contact .title2 {
-  position: absolute;
   width: 250px;
   height: 23px;
-  top: -35px;
   font-size: 20px;
   font-weight: 300;
-  line-height: 23.48px;
-  text-align: left;
+  margin-left: 5vh;
+  text-align: center;
   color: #252525;
 }
 .OurContact .Contact .title2 img {
@@ -670,14 +666,12 @@
           transform: translateY(10px);
 }
 .OurContact .Contact .title3 {
-  position: absolute;
   width: 250px;
   height: 23px;
-  top: -35px;
   font-size: 20px;
   font-weight: 300;
-  line-height: 23.48px;
-  text-align: left;
+  margin-left: 5vh;
+  text-align: center;
   color: #252525;
 }
 .OurContact .Contact .title3 img {
@@ -691,14 +685,12 @@
           transform: translateY(10px);
 }
 .OurContact .Contact .title4 {
-  position: absolute;
   width: 250px;
   height: 23px;
-  top: -35px;
   font-size: 20px;
   font-weight: 300;
-  line-height: 23.48px;
-  text-align: left;
+  margin-left: 5vh;
+  text-align: center;
   color: #252525;
 }
 .OurContact .Contact .title4 img {
@@ -714,10 +706,10 @@
 .OurContact .Contact li {
   width: 250px;
   height: 19px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 16px;
   font-weight: 200;
-  line-height: 18.78px;
+  margin-left: 5vh;
   text-align: left;
   list-style: none;
 }
@@ -731,12 +723,10 @@
   width: 173px;
   height: 14px;
   top: 155px;
-  left: 490px;
-  gap: 0px;
+  left: 74vh;
   font-family: Raleway;
   font-size: 12px;
   font-weight: 300;
-  line-height: 14.09px;
   text-align: center;
 }
 

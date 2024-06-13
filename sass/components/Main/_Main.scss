@@ -1,3 +1,8 @@
+@mixin pos($t, $l) {
+  top: $t;
+  left: $l;
+}
+
 .Show {
   margin-bottom: 750px;
 
@@ -6,7 +11,7 @@
     width: 643px;
     height: 42px;
     top: 1000px;
-    left: 150px;
+    left: 33.5vh;
     font-family: $txt-font;
     font-weight: 300;
     font-size: 36px;
@@ -16,7 +21,7 @@
   .ShowCase {
     .Banner1 {
       @include banner;
-      left: 150px;
+      left: 40vh;
 
       img {
         transition: 1s;
@@ -29,7 +34,7 @@
     }
     .Banner2 {
       @include banner;
-      left: 438.75px;
+      left: 60vh;
 
       img {
         transition: 1s;
@@ -42,7 +47,7 @@
     }
     .Banner3 {
       @include banner;
-      left: 727.5px;
+      left: 80vh;
 
       img {
         transition: 1s;
@@ -55,7 +60,7 @@
     }
     .Banner4 {
       @include banner;
-      left: 1016.25px;
+      left: 100vh;
 
       img {
         transition: 1s;
@@ -103,11 +108,10 @@
   font-family: $txt-font;
 
   .Title {
+    @include pos(113vh, 58vh);
     position: absolute;
     width: 600px;
     height: 42px;
-    top: 1642;
-    left: 420px;
 
     font-weight: 300;
     font-size: 36px;
@@ -116,11 +120,10 @@
   }
 
   input {
+    @include pos(118.9vh, 58vh);
     position: absolute;
     width: 600px;
     height: 50px;
-    top: 1734px;
-    left: 420px;
     font-size: 16px;
     color: #25252580;
     border: solid 0.5px;
@@ -128,11 +131,10 @@
   }
 
   .Agree {
+    @include pos(128.5vh, 58vh);
     position: absolute;
     width: 600px;
     height: 38px;
-    top: 1874px;
-    left: 420px;
 
     font-weight: 200;
     size: 16px;
@@ -141,11 +143,10 @@
   }
 
   .Subscribe {
+    @include pos(123.5vh, 58vh);
     position: absolute;
     width: 600px;
     height: 50px;
-    left: 420px;
-    top: 1804px;
 
     button {
       width: 100%;

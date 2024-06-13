@@ -89,6 +89,10 @@ $txt-font: Raleway;
   opacity: 0px;
 }
 
+header {
+  margin-left: 30vh;
+}
+
 .HeaderMenu {
   display: flex;
   justify-content: space-between;
@@ -107,21 +111,21 @@ $txt-font: Raleway;
       @include main-panel;
       width: 44px;
       height: 21px;
-      left: 288px;
+      left: 42vh;
     }
 
     .cataLog {
       @include main-panel;
       width: 80px;
       height: 21px;
-      left: 357px;
+      left: 50vh;
     }
 
     .aboutUs {
       @include main-panel;
       width: 56px;
       height: 21px;
-      left: 465px;
+      left: 58vh;
     }
 
     a {
@@ -135,7 +139,7 @@ $txt-font: Raleway;
     width: 34px;
     height: 24px;
     top: 33px;
-    left: 150px;
+    left: 34vh;
   }
 
   .CompanyName {
@@ -144,7 +148,7 @@ $txt-font: Raleway;
       width: 158.09px;
       height: 40px;
       top: 24px;
-      left: 641px;
+      left: 76.5vh;
 
       color: var(--txt-color);
       font-family: $title-font;
@@ -161,21 +165,19 @@ $txt-font: Raleway;
       width: 26px;
       height: 21px;
       top: 34px;
-      left: 893px;
-      gap: 0px;
-      opacity: 0px;
+      left: 101vh;
 
       @include languages;
     }
 
     .arrow1 {
       @include lang-arrows;
-      left: 925px;
+      left: 103vh;
     }
 
     .arrow2 {
       @include lang-arrows;
-      left: 1005px;
+      left: 110vh;
     }
 
     .uah {
@@ -183,9 +185,7 @@ $txt-font: Raleway;
       width: 39px;
       height: 21px;
       top: 34px;
-      left: 962.02px;
-      gap: 0px;
-      opacity: 0px;
+      left: 107vh;
 
       @include languages;
     }
@@ -201,28 +201,28 @@ $txt-font: Raleway;
 
   .IconSearch {
     @include icons;
-    left: 1100px;
+    left: 117vh;
   }
 
   .IconPerson {
     @include icons;
-    left: 1155px;
+    left: 120vh;
   }
 
   .IconLike {
     @include icons;
-    left: 1210px;
+    left: 123vh;
   }
 
   .IconBasket {
     @include icons;
-    left: 1265px;
+    left: 126vh;
   }
 
   .Center {
     position: absolute;
     top: 350px;
-    left: 540px;
+    left: 67.75vh;
     color: var(--txt-color);
     font-family: $txt-font;
 
