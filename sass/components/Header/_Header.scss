@@ -253,20 +253,16 @@ header {
   }
 }
 
-@media only screen and (max-width: 375px) and (max-height: 1628px) {
-  body {
-    max-width: 375px;
-    margin: 0;
-  }
-
+@media only screen and (max-width: 480px) and (max-height: 768px) {
   .HeaderMenu {
-    width: 100%;
+    width: 58.75vh;
+    margin-left: -30vh;
 
     .Menu {
       width: 34px;
       height: 24px;
       top: 20px;
-      left: 20px;
+      left: 2vh;
     }
 
     .MainButtons {
@@ -278,9 +274,7 @@ header {
         width: 79px;
         height: 20px;
         top: 22px;
-        left: 148px;
-        gap: 0px;
-        opacity: 0px;
+        left: 25.25vh;
       }
     }
 
@@ -289,18 +283,14 @@ header {
         width: 23px;
         height: 19px;
         top: 23px;
-        left: 76px;
-        gap: 0px;
-        opacity: 0px;
+        left: 11.5vh;
       }
 
       .arrow1 {
         width: 14px;
         height: 14px;
         top: 25px;
-        left: 105px;
-        gap: 0px;
-        opacity: 0px;
+        left: 15vh;
       }
     }
 
@@ -314,14 +304,14 @@ header {
       width: 20px;
       height: 20px;
       top: 22px;
-      left: 295px;
+      left: 50vh;
     }
 
     .IconBasket {
       width: 20px;
       height: 20px;
       top: 22px;
-      left: 335px;
+      left: 55vh;
     }
 
     .Center {
@@ -329,10 +319,8 @@ header {
         position: absolute;
         width: 261px;
         height: 38px;
-        top: 70px;
-        left: -475px;
-        gap: 0px;
-        opacity: 0.85px;
+        top: 0vh;
+        left: -53vh;
 
         font-size: 32px;
         font-weight: 300;
@@ -344,16 +332,14 @@ header {
         position: absolute;
         width: 120px;
         height: 1px;
-        top: 7vh;
-        left: -515px;
-        gap: 0px;
-        opacity: 0px;
+        top: 5vh;
+        left: -60vh;
       }
 
       .News {
         position: absolute;
         top: 9vh;
-        left: -25.99vh;
+        left: -47vh;
       }
     }
   }

@@ -163,21 +163,14 @@
   }
 }
 
-@media only screen and (max-width: 375px) and (max-height: 1628px) {
-  body {
-    max-width: 375px;
-    margin: 0;
-  }
-
+@media only screen and (max-width: 480px) and (max-height: 768px) {
   .Show {
     .categories {
       position: absolute;
       width: 335px;
       height: 28px;
-      top: 59vh;
+      top: 121vh;
       left: 20px;
-      gap: 0px;
-      opacity: 0px;
 
       font-size: 24px;
       font-weight: 300;
@@ -187,20 +180,17 @@
 
     .ShowCase {
       .Banner1 {
-        // position: absolute;
         width: 273.75px;
         height: 450px;
-        top: 65vh;
-        left: 50px;
+        top: 129vh;
+        left: 12.5vh;
       }
 
       .Next {
         width: 30px;
         height: 30px;
-        top: 885px;
-        left: 315px;
-        gap: 0px;
-        opacity: 0px;
+        top: 0vh;
+        left: 0px;
       }
 
       .Banner2,
@@ -215,8 +205,8 @@
       position: absolute;
       width: 335px;
       height: 28px;
-      top: 1595px;
-      left: 20px;
+      top: 193vh;
+      left: 70px;
 
       font-size: 24px;
       font-weight: 300;
@@ -228,8 +218,8 @@
       position: absolute;
       width: 335px;
       height: 40px;
-      top: 101vh;
-      left: 20px;
+      top: 199vh;
+      left: 70px;
 
       input {
         position: absolute;
@@ -243,10 +233,8 @@
     .Subscribe {
       width: 335px;
       height: 40px;
-      top: 104vh;
-      left: 20px;
-      gap: 0px;
-      opacity: 0px;
+      top: 206vh;
+      left: 70px;
 
       P {
         top: 1vh;
@@ -257,8 +245,8 @@
     .Agree {
       width: 335px;
       height: 48px;
-      top: 108vh;
-      left: 20px;
+      top: 213vh;
+      left: 70px;
     }
   }
 }

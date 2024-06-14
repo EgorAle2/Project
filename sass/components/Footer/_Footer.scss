@@ -46,6 +46,12 @@ $txt-font: Raleway;
   img:hover {
     transform: translateY(10px);
   }
+
+  @media only screen and (min-width: 490px) and (min-height: 778px) {
+    img {
+      display: none;
+    }
+  }
 }
 
 @mixin contact-list {
@@ -148,7 +154,7 @@ $txt-font: Raleway;
   text-align: center;
 }
 
-@media only screen and (max-width: 375px) and (max-height: 1628px) {
+@media only screen and (max-width: 480px) and (max-height: 768px) {
   body {
     max-width: 375px;
     margin: 0;
@@ -156,31 +162,17 @@ $txt-font: Raleway;
   .OurContact {
     .Contact {
       .title1 {
+        position: absolute;
         width: 335px;
         height: 26px;
-        top: -4vh;
-        left: -2vh;
+        top: 93vh;
+        left: 5vh;
       }
 
-      .title2 {
-        width: 335px;
-        height: 26px;
-        top: -2vh;
-        left: -2vh;
-      }
-
-      .title3 {
-        width: 335px;
-        height: 26px;
-        top: 0vh;
-        left: -2vh;
-      }
-
+      .title2,
+      .title3,
       .title4 {
-        width: 335px;
-        height: 26px;
-        top: 2vh;
-        left: -2vh;
+        display: none;
       }
 
       li {
@@ -191,8 +183,8 @@ $txt-font: Raleway;
     .Rigths {
       width: 144px;
       height: 12px;
-      top: 115px;
-      left: -43px;
+      top: 99.9vh;
+      left: 21.75vh;
     }
   }
 }
